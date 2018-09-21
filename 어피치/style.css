@@ -1,0 +1,44 @@
+@font-face {
+  font-family: NanumSquareWeb;
+  src: local(NanumSquareR),
+       local(NanumSquare),
+       url(NanumSquareR.eot?#iefix) format('embedded-opentype'),
+       url(NanumSquareR.woff) format('woff'),
+       url(NanumSquareR.ttf) format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  unicode-range: U+0-10FFFF;
+}
+body {
+  font-family: NanumSquareWeb, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  text-align: center;
+  border-bottom: 1px dotted coral;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+}
+#grid ol{
+  border-right: 1px dashed coral;
+}
+#index{
+  text-align: center;
+  list-style-position:inside;
+}
+#index ol{
+  font-size: 130%;
+}
+#index li{
+  padding: 10px;
+}
+#intro ol{
+  font-size: 130%;
+}
