@@ -4,28 +4,8 @@
   <title>about 어피치</title>
     <meta charset="utf-8">
    <link rel="stylesheet" href="style.css">
-   <script>
-   function changeColor(self){
-     var target = document.querySelector('body');
-     if(self.value === 'blue'){
-       target.style.backgroundColor = 'powderblue';
-       self.value = 'white';
-       var alist = document.querySelectorAll('a');
-       for(var i=0;i<alist.length;i++){
-         alist[i].style.color = 'red';
-       }
-
-     }
-     else{
-       target.style.backgroundColor = 'white';
-       self.value = 'blue';
-       var alist = document.querySelectorAll('a');
-       for(var i=0;i<alist.length;i++){
-         alist[i].style.color = 'black';
-       }
-     }
-   }
-   </script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="color.js"></script>
 </head>
 <body>
   <h1>어피치</h1>
