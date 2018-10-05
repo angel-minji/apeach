@@ -40,6 +40,11 @@ h1{
 #index li{
   padding: 10px;
 }
+#ori_blue{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
 #intro ol{
   font-size: 130%;
 }
